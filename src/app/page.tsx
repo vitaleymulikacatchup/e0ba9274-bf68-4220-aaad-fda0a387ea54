@@ -7,6 +7,7 @@ import FeatureCardTwo from '@/components/sections/feature/FeatureCardTwo';
 import ProductCardTwo from '@/components/sections/product/ProductCardTwo';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
+import { Star, Home } from 'lucide-react';
 
 const assetMap = [
   { id: 'hero-image', url: 'https://images.pexels.com/photos/2909822/pexels-photo-2909822.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', alt: 'Colorful pink crust pizza with vegetables and herbs on a wooden platter. Perfect for food lovers.' },
@@ -57,8 +58,8 @@ export default function Home() {
         <div className="mx-auto px-4 md:px-6">
           <FeatureCardTwo
             features={[
-              { title: "Quality Ingredients", description: "Only the freshest and finest ingredients.", icon: "Star" },
-              { title: "Cozy Ambience", description: "Experience a warm and inviting atmosphere.", icon: "Home" }
+              { title: "Quality Ingredients", description: "Only the freshest and finest ingredients.", icon: Star },
+              { title: "Cozy Ambience", description: "Experience a warm and inviting atmosphere.", icon: Home }
             ]}
           />
         </div>
