@@ -11,6 +11,7 @@ import { Star, Home } from 'lucide-react';
 
 const assetMap = [
   { id: 'hero-image', url: 'https://images.pexels.com/photos/2909822/pexels-photo-2909822.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', alt: 'Colorful pink crust pizza with vegetables and herbs on a wooden platter. Perfect for food lovers.' },
+  { id: 'about-image', url: 'https://images.pexels.com/photos/19130050/pexels-photo-19130050.png?auto=compress&cs=tinysrgb&h=650&w=940', alt: 'Tantalizing selection of gourmet pizzas with fresh toppings in Mexico City\'s vibrant dining scene.' },
   { id: 'product-image1', url: 'https://images.pexels.com/photos/708587/pexels-photo-708587.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', alt: 'A mouthwatering slice of pepperoni pizza with cheese and spices, ideal for any meal.' },
   { id: 'product-image2', url: 'https://images.pexels.com/photos/5848245/pexels-photo-5848245.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', alt: 'Delicious gourmet pizza in an open cardboard box, shot from above for a classic flat lay presentation.' },
   { id: 'product-image3', url: 'https://images.pexels.com/photos/6605245/pexels-photo-6605245.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', alt: 'Overhead view of friends sharing pizza and beer at a table indoors in a casual setting.' },
